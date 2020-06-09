@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+    php:
+        image: sun7pro/phpunit-coverage:php7.3
+        tty: true
+        working_dir: /var/www/app/
+        volumes:
+            - ./:/var/www/app/
