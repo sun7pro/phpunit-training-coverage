@@ -19,7 +19,7 @@ docker-compose up -d
 
 Install composer:
 ```bash
-docker-composer exec php composer install
+docker-compose exec php composer install
 ```
 
 Run unit tests:
