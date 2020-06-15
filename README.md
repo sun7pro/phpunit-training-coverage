@@ -22,10 +22,6 @@ Install composer:
 docker-compose exec php composer install
 ```
 
-Run unit tests:
-```bash
-docker-compose exec php ./vendor/bin/phpunit
-docker-compose exec php php -dextension=xdebug.so ./vendor/bin/phpunit --coverage-html=tests/coverage
-```
+Run unit tests: https://github.com/sun7pro/phpunit-training-coverage/issues/1
 
 See [phpunit.xml](phpunit.xml) to see test suites and [docs](https://github.com/framgia/div-high-dev-guidelines/blob/master/ut/php/03-phpunit.md#ch%E1%BA%A1y-test) to find how to run.
